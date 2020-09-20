@@ -28,6 +28,9 @@ header {
 
 header h1 {
     color: white;
+    line-height: 65px;
+    margin: 0;
+    padding: 0;
 }
 
 header a {
@@ -39,10 +42,12 @@ header li {
 }
 
 header img {
+    box-sizing: border-box;
     margin-left: 20px;
     border-radius: 50%;
-    height: 80%;
-    width: auto;
+    height: 65px;
+    width: 65px;
+    padding: 10px;
 }
 
 header nav {
